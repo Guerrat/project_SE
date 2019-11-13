@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Aurelien/Desktop/ENSEIRB/3A/systeme_embarque/TD_bye_bye_Arduino
+# Install script for directory: C:/Users/Aurelien/Documents/GitHub/project_SE/Code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Aurelien/Desktop/ENSEIRB/3A/systeme_embarque/TD_bye_bye_Arduino/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Aurelien/Documents/GitHub/project_SE/Code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

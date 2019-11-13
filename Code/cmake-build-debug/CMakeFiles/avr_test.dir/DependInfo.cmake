@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Aurelien/Desktop/ENSEIRB/3A/systeme_embarque/TD_bye_bye_Arduino/main.c" "C:/Users/Aurelien/Desktop/ENSEIRB/3A/systeme_embarque/TD_bye_bye_Arduino/cmake-build-debug/CMakeFiles/avr_test.dir/main.c.obj"
+  "C:/Users/Aurelien/Documents/GitHub/project_SE/Code/main.c" "C:/Users/Aurelien/Documents/GitHub/project_SE/Code/cmake-build-debug/CMakeFiles/avr_test.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
