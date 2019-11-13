@@ -1,0 +1,56 @@
+The target system is: Generic -  - 
+The host system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Users/Aurelien/Desktop/ENSEIRB/3A/systeme_embarque/TD_bye_bye_Arduino/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/Users/Aurelien/Desktop/ENSEIRB/3A/systeme_embarque/TD_bye_bye_Arduino/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Aurelien/Desktop/ENSEIRB/3A/systeme_embarque/TD_bye_bye_Arduino/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe cmTC_aefca/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_aefca.dir\build.make CMakeFiles/cmTC_aefca.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Aurelien/Desktop/ENSEIRB/3A/systeme_embarque/TD_bye_bye_Arduino/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aefca.dir/testCCompiler.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_aefca.dir\testCCompiler.c.obj   -c C:\Users\Aurelien\Desktop\ENSEIRB\3A\systeme_embarque\TD_bye_bye_Arduino\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_aefca
+"C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_aefca.dir\link.txt --verbose=1
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe      CMakeFiles/cmTC_aefca.dir/testCCompiler.c.obj  -o cmTC_aefca 
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Aurelien/Desktop/ENSEIRB/3A/systeme_embarque/TD_bye_bye_Arduino/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Aurelien/Desktop/ENSEIRB/3A/systeme_embarque/TD_bye_bye_Arduino/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe cmTC_07242/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_07242.dir\build.make CMakeFiles/cmTC_07242.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Aurelien/Desktop/ENSEIRB/3A/systeme_embarque/TD_bye_bye_Arduino/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_07242.dir/testCXXCompiler.cxx.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE     -o CMakeFiles\cmTC_07242.dir\testCXXCompiler.cxx.obj -c C:\Users\Aurelien\Desktop\ENSEIRB\3A\systeme_embarque\TD_bye_bye_Arduino\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_07242
+"C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_07242.dir\link.txt --verbose=1
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE       CMakeFiles/cmTC_07242.dir/testCXXCompiler.cxx.obj  -o cmTC_07242 
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Aurelien/Desktop/ENSEIRB/3A/systeme_embarque/TD_bye_bye_Arduino/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+

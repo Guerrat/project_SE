@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Aurelien\Desktop\ENSEIRB\3A\systeme_embarque\TD_bye_bye_Arduino
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Aurelien/Desktop/ENSEIRB/3A/systeme_embarque/TD_bye_bye_Arduino/cmake-build-debug
