@@ -20,8 +20,10 @@ int main(){
     USART_init(MYUBBR);
     while(1){
         unsigned char received;
+        // echo
         if(received = USART_received()){
-            USART_send(received+1);
+            USART_send(received);
+            _delay_ms(10);
         }
     }
 }
