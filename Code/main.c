@@ -18,12 +18,14 @@ void USART_send(unsigned char data);
 int main(){
     DDRB |= _BV(PB5);
     USART_init(MYUBBR);
+    unsigned char *word;
     while(1){
         unsigned char received;
         // echo
         if(received = USART_received()){
-            USART_send(received);
-            _delay_ms(10);
+
+            USART_send('A');
+            _delay_ms(20);
         }
     }
 }
@@ -36,7 +38,7 @@ void USART_init(unsigned int ubbr){
     UBRR0L = ubbr;
 
     // Configuration de l'UART
-    UCSR0A &= ~_BV(U2X0);
+    //UCSR0A &= ~_BV(U2X0);
     UCSR0B |= _BV(RXCIE0);
     //Enable reciever and transmitter
     UCSR0B |= _BV(RXEN0) | _BV(TXEN0);
