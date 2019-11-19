@@ -1,0 +1,1 @@
+avr-gcc -Os -mmcu=ATmega128 -DF_CPU=13000000UL -std=gnu99 -Wl,--gc-sections -g   CMakeFiles/projet_se.dir/main.c.obj  -o ..\bin\projet_se 

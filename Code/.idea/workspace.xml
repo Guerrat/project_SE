@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="avr_test" targetName="avr_UPLOAD" />
-      <config projectName="avr_test" targetName="avr_test" />
+      <config projectName="projet_se" targetName="avr_UPLOAD" />
+      <config projectName="projet_se" targetName="projet_se" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -48,19 +48,19 @@
     </option>
   </component>
   <component name="RunManager" selected="CMake Application.avr_UPLOAD">
-    <configuration name="avr_UPLOAD" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="avr_test" TARGET_NAME="avr_UPLOAD" CONFIG_NAME="Debug">
+    <configuration name="avr_UPLOAD" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="projet_se" TARGET_NAME="avr_UPLOAD" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="avr_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="avr_test" TARGET_NAME="avr_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="avr_test" RUN_TARGET_NAME="avr_test">
+    <configuration name="projet_se" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="projet_se" TARGET_NAME="projet_se" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.avr_test" />
       <item itemvalue="CMake Application.avr_UPLOAD" />
+      <item itemvalue="CMake Application.projet_se" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -81,6 +81,8 @@
       <workItem from="1572959103342" duration="1015000" />
       <workItem from="1573650078263" duration="3714000" />
       <workItem from="1573655126534" duration="5678000" />
+      <workItem from="1574169922955" duration="49000" />
+      <workItem from="1574173286286" duration="1819000" />
     </task>
     <servers />
   </component>
@@ -92,7 +94,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

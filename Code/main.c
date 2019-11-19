@@ -7,7 +7,10 @@
 #define MYUBBR (FOSC/(16*BAUD))-1
 
 // Serial init source : https://medium.com/@mellow_/atmega328p-serial-communications-in-c-4e5b26a0ea30
-void USART_init(unsigned int ubbr);
+uint8_t value_UART_RX;
+volatile uint8_t flag_UART_RX;
+
+void USART_init(void);
 void USART_putstring(char *str);
 unsigned char USART_received(void);
 void USART_send(unsigned char data);
@@ -16,36 +19,33 @@ void USART_send(unsigned char data);
 
 
 int main(){
-    DDRB |= _BV(PB5);
-    USART_init(MYUBBR);
-    unsigned char *word;
+    USART_init();
     while(1){
-        unsigned char received;
         // echo
-        if(received = USART_received()){
-
-            USART_send('A');
-            _delay_ms(20);
+        if(flag_UART_RX == 1){
+            flag_UART_RX = 0;
+            USART_send(value_UART_RX);
         }
     }
 }
 
 // Initialisation du module UART
-void USART_init(unsigned int ubbr){
-
+void USART_init(void){
+    flag_UART_RX = 0;
+    value_UART_RX = 0;
     // Set baud rate
-    UBRR0H = (ubbr >> 8);
-    UBRR0L = ubbr;
+    UBRR0H = (MYUBBR >> 8);
+    UBRR0L = MYUBBR;
 
     // Configuration de l'UART
-    //UCSR0A &= ~_BV(U2X0);
+    UCSR0A &= ~_BV(U2X0);
     UCSR0B |= _BV(RXCIE0);
     //Enable reciever and transmitter
     UCSR0B |= _BV(RXEN0) | _BV(TXEN0);
-    //Set frame format : 8bit 2stop bit
-    UCSR0C |= _BV(UCSZ01) | _BV(UCSZ00) | _BV(USBS0);
+    //Set frame format : 8bit 1stop bit
+    UCSR0C |= _BV(UCSZ01) | _BV(UCSZ00);
 
-
+    sei();
 }
 
 /**
@@ -81,17 +81,8 @@ void USART_send(unsigned char data){
 /**
  * Fonction d'intéruption qui sera appelée à chaque réception de donnée
  */
- /*
-ISR(USART_RX_vect){
-    unsigned char received = USART_received();
 
-    if(received == '1'){
-        //ledState = 1;
-        USART_putstring("LED ON\n\r");
-    }
-    else if(received == '0'){
-        //ledState = 0;
-        USART_putstring("LED OFF\n\r");
-    }
-
-}*/
+ISR(USART0_RX_vect){
+     value_UART_RX = USART_received();
+     flag_UART_RX = 1;
+}

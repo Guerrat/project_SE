@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.9)
 SET(CMAKE_SYSTEM_NAME Generic)
 
 #============================================================================================
-PROJECT(avr_test)
+PROJECT(projet_se)
 
 SET(DEVICE_COMPILER "ATmega128")
 SET(DEVICE_UPLOADER "ATmega128")

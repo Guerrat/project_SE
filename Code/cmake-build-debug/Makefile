@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named avr_test
+# Target rules for targets named projet_se
 
 # Build rule for target.
-avr_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 avr_test
-.PHONY : avr_test
+projet_se: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 projet_se
+.PHONY : projet_se
 
 # fast build rule for target.
-avr_test/fast:
-	$(MAKE) -f CMakeFiles\avr_test.dir\build.make CMakeFiles/avr_test.dir/build
-.PHONY : avr_test/fast
+projet_se/fast:
+	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/build
+.PHONY : projet_se/fast
 
 #=============================================================================
 # Target rules for targets named avr_UPLOAD
@@ -141,7 +141,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) -f CMakeFiles\avr_test.dir\build.make CMakeFiles/avr_test.dir/main.c.obj
+	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -150,7 +150,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles\avr_test.dir\build.make CMakeFiles/avr_test.dir/main.c.i
+	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -159,7 +159,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles\avr_test.dir\build.make CMakeFiles/avr_test.dir/main.c.s
+	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -168,7 +168,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... avr_test
+	@echo ... projet_se
 	@echo ... edit_cache
 	@echo ... avr_UPLOAD
 	@echo ... rebuild_cache
