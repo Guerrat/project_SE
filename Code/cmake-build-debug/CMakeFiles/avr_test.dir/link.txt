@@ -1,1 +1,0 @@
-avr-gcc -Os -mmcu=ATmega128 -DF_CPU=13000000UL -std=gnu99 -Wl,--gc-sections -g   CMakeFiles/avr_test.dir/main.c.obj  -o ..\bin\avr_test 

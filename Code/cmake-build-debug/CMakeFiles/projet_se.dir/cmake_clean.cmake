@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "../bin/projet_se"
   "../bin/projet_se.manifest"
   "../bin/projet_se.pdb"
+  "CMakeFiles/projet_se.dir/SPI_led.c.obj"
+  "CMakeFiles/projet_se.dir/USART.c.obj"
   "CMakeFiles/projet_se.dir/main.c.obj"
 )
 

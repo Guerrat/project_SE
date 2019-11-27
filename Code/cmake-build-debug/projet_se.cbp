@@ -90,6 +90,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Aurelien/Documents/GitHub/project_SE/Code/SPI_led.c">
+			<Option target="projet_se"/>
+		</Unit>
+		<Unit filename="C:/Users/Aurelien/Documents/GitHub/project_SE/Code/SPI_led.h">
+			<Option target="projet_se"/>
+		</Unit>
+		<Unit filename="C:/Users/Aurelien/Documents/GitHub/project_SE/Code/USART.c">
+			<Option target="projet_se"/>
+		</Unit>
+		<Unit filename="C:/Users/Aurelien/Documents/GitHub/project_SE/Code/USART.h">
+			<Option target="projet_se"/>
+		</Unit>
 		<Unit filename="C:/Users/Aurelien/Documents/GitHub/project_SE/Code/main.c">
 			<Option target="projet_se"/>
 		</Unit>
