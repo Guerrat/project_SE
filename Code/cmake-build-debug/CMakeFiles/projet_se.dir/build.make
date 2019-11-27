@@ -82,9 +82,22 @@ CMakeFiles/projet_se.dir/USART.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/projet_se.dir/USART.c.s"
 	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Aurelien\Documents\GitHub\project_SE\Code\USART.c -o CMakeFiles\projet_se.dir\USART.c.s
 
+CMakeFiles/projet_se.dir/capt_Hall.c.obj: CMakeFiles/projet_se.dir/flags.make
+CMakeFiles/projet_se.dir/capt_Hall.c.obj: ../capt_Hall.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/projet_se.dir/capt_Hall.c.obj"
+	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\projet_se.dir\capt_Hall.c.obj   -c C:\Users\Aurelien\Documents\GitHub\project_SE\Code\capt_Hall.c
+
+CMakeFiles/projet_se.dir/capt_Hall.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/projet_se.dir/capt_Hall.c.i"
+	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Aurelien\Documents\GitHub\project_SE\Code\capt_Hall.c > CMakeFiles\projet_se.dir\capt_Hall.c.i
+
+CMakeFiles/projet_se.dir/capt_Hall.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/projet_se.dir/capt_Hall.c.s"
+	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Aurelien\Documents\GitHub\project_SE\Code\capt_Hall.c -o CMakeFiles\projet_se.dir\capt_Hall.c.s
+
 CMakeFiles/projet_se.dir/main.c.obj: CMakeFiles/projet_se.dir/flags.make
 CMakeFiles/projet_se.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/projet_se.dir/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/projet_se.dir/main.c.obj"
 	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\projet_se.dir\main.c.obj   -c C:\Users\Aurelien\Documents\GitHub\project_SE\Code\main.c
 
 CMakeFiles/projet_se.dir/main.c.i: cmake_force
@@ -99,6 +112,7 @@ CMakeFiles/projet_se.dir/main.c.s: cmake_force
 projet_se_OBJECTS = \
 "CMakeFiles/projet_se.dir/SPI_led.c.obj" \
 "CMakeFiles/projet_se.dir/USART.c.obj" \
+"CMakeFiles/projet_se.dir/capt_Hall.c.obj" \
 "CMakeFiles/projet_se.dir/main.c.obj"
 
 # External object files for target projet_se
@@ -106,10 +120,11 @@ projet_se_EXTERNAL_OBJECTS =
 
 ../bin/projet_se: CMakeFiles/projet_se.dir/SPI_led.c.obj
 ../bin/projet_se: CMakeFiles/projet_se.dir/USART.c.obj
+../bin/projet_se: CMakeFiles/projet_se.dir/capt_Hall.c.obj
 ../bin/projet_se: CMakeFiles/projet_se.dir/main.c.obj
 ../bin/projet_se: CMakeFiles/projet_se.dir/build.make
 ../bin/projet_se: CMakeFiles/projet_se.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable ..\bin\projet_se"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable ..\bin\projet_se"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\projet_se.dir\link.txt --verbose=$(VERBOSE)
 	avr-objcopy -O ihex -R.eeprom C:/Users/Aurelien/Documents/GitHub/project_SE/Code/bin/projet_se C:/Users/Aurelien/Documents/GitHub/project_SE/Code/bin/projet_se.hex
 	avr-objcopy -O ihex -j .eeprom --set-section-flags=.eeprom="alloc,load" --change-section-lma .eeprom=0 C:/Users/Aurelien/Documents/GitHub/project_SE/Code/bin/projet_se C:/Users/Aurelien/Documents/GitHub/project_SE/Code/bin/projet_se.eep

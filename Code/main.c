@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include "USART.h"
 #include "SPI_led.h"
-
+#include "capt_Hall.h"
 // Serial init source : https://medium.com/@mellow_/atmega328p-serial-communications-in-c-4e5b26a0ea30
 
 // Global variable
@@ -14,6 +14,7 @@ int main(){
     _delay_ms(500); // car il démarre 2fois
     USART_init();
     SPI_MasterInit();
+    init_hall();
     /*
     char init[50] ;
     sprintf(init, "1234");  // permet de rajouter atomatiquement 0x00 à la fin de la chaine de caractere
@@ -26,6 +27,15 @@ int main(){
     uint16_t led = 0b1001010010010000;
     update_leds(led);
     while(1){
+        if(flag_rise_hall){
+            flag_rise_hall = 0;
+            uint16_t led = 0b1111111111111111;
+            update_leds(led);
+            _delay_ms(50);
+        }
+        uint16_t led = 0b1001010010010000;
+        update_leds(led);
+
 
 /*
         // echo

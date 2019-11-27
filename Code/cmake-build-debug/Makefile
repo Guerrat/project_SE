@@ -189,6 +189,33 @@ USART.c.s:
 	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/USART.c.s
 .PHONY : USART.c.s
 
+capt_Hall.obj: capt_Hall.c.obj
+
+.PHONY : capt_Hall.obj
+
+# target to build an object file
+capt_Hall.c.obj:
+	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/capt_Hall.c.obj
+.PHONY : capt_Hall.c.obj
+
+capt_Hall.i: capt_Hall.c.i
+
+.PHONY : capt_Hall.i
+
+# target to preprocess a source file
+capt_Hall.c.i:
+	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/capt_Hall.c.i
+.PHONY : capt_Hall.c.i
+
+capt_Hall.s: capt_Hall.c.s
+
+.PHONY : capt_Hall.s
+
+# target to generate assembly for a file
+capt_Hall.c.s:
+	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/capt_Hall.c.s
+.PHONY : capt_Hall.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -232,6 +259,9 @@ help:
 	@echo ... USART.obj
 	@echo ... USART.i
 	@echo ... USART.s
+	@echo ... capt_Hall.obj
+	@echo ... capt_Hall.i
+	@echo ... capt_Hall.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

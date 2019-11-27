@@ -7,7 +7,11 @@ CMakeFiles/projet_se.dir/SPI_led.c.obj: ../SPI_led.h
 CMakeFiles/projet_se.dir/USART.c.obj: ../USART.c
 CMakeFiles/projet_se.dir/USART.c.obj: ../USART.h
 
+CMakeFiles/projet_se.dir/capt_Hall.c.obj: ../capt_Hall.c
+CMakeFiles/projet_se.dir/capt_Hall.c.obj: ../capt_Hall.h
+
 CMakeFiles/projet_se.dir/main.c.obj: ../SPI_led.h
 CMakeFiles/projet_se.dir/main.c.obj: ../USART.h
+CMakeFiles/projet_se.dir/main.c.obj: ../capt_Hall.h
 CMakeFiles/projet_se.dir/main.c.obj: ../main.c
 

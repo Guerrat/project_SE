@@ -102,6 +102,12 @@
 		<Unit filename="C:/Users/Aurelien/Documents/GitHub/project_SE/Code/USART.h">
 			<Option target="projet_se"/>
 		</Unit>
+		<Unit filename="C:/Users/Aurelien/Documents/GitHub/project_SE/Code/capt_Hall.c">
+			<Option target="projet_se"/>
+		</Unit>
+		<Unit filename="C:/Users/Aurelien/Documents/GitHub/project_SE/Code/capt_Hall.h">
+			<Option target="projet_se"/>
+		</Unit>
 		<Unit filename="C:/Users/Aurelien/Documents/GitHub/project_SE/Code/main.c">
 			<Option target="projet_se"/>
 		</Unit>

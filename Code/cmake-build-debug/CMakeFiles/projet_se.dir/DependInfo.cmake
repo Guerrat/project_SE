@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Aurelien/Documents/GitHub/project_SE/Code/SPI_led.c" "C:/Users/Aurelien/Documents/GitHub/project_SE/Code/cmake-build-debug/CMakeFiles/projet_se.dir/SPI_led.c.obj"
   "C:/Users/Aurelien/Documents/GitHub/project_SE/Code/USART.c" "C:/Users/Aurelien/Documents/GitHub/project_SE/Code/cmake-build-debug/CMakeFiles/projet_se.dir/USART.c.obj"
+  "C:/Users/Aurelien/Documents/GitHub/project_SE/Code/capt_Hall.c" "C:/Users/Aurelien/Documents/GitHub/project_SE/Code/cmake-build-debug/CMakeFiles/projet_se.dir/capt_Hall.c.obj"
   "C:/Users/Aurelien/Documents/GitHub/project_SE/Code/main.c" "C:/Users/Aurelien/Documents/GitHub/project_SE/Code/cmake-build-debug/CMakeFiles/projet_se.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

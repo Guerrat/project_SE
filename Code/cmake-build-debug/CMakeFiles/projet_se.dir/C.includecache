@@ -22,6 +22,14 @@ util/delay.h
 avr/interrupt.h
 -
 
+C:/Users/Aurelien/Documents/GitHub/project_SE/Code/capt_Hall.h
+avr/io.h
+-
+util/delay.h
+-
+avr/interrupt.h
+-
+
 C:/Users/Aurelien/Documents/GitHub/project_SE/Code/main.c
 avr/io.h
 -
@@ -35,4 +43,6 @@ USART.h
 C:/Users/Aurelien/Documents/GitHub/project_SE/Code/USART.h
 SPI_led.h
 C:/Users/Aurelien/Documents/GitHub/project_SE/Code/SPI_led.h
+capt_Hall.h
+C:/Users/Aurelien/Documents/GitHub/project_SE/Code/capt_Hall.h
 
