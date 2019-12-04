@@ -10,33 +10,35 @@
 
 // Global variable
 
+volatile  uint16_t led;
 
 int main(){
-    _delay_ms(100); // car il démarre 2fois
+    _delay_ms(500); // car il démarre 2fois
     USART_init();
     SPI_MasterInit();
     init_hall();
-    /*
+/*
     char init[50] ;
     sprintf(init, "1234");  // permet de rajouter atomatiquement 0x00 à la fin de la chaine de caractere
 
     USART_putstring(init);
 */
-
-
-    //USART_send('a');
-    uint16_t led = 0b1001010010010000;
+    _delay_ms(100);
+    led = 0b0000000000000000;
     update_leds(led);
+    _delay_ms(10);
     while(1){
         if(flag_rise_hall){
             flag_rise_hall = 0;
-            uint16_t led = 0b1111111111111111;
+            led = 0b1111111111111111;
             update_leds(led);
             _delay_ms(50);
         }
-        uint16_t led = 0b1001010010010000;
+        //USART_send('a');
+        //led = 0b1010101010101010;
+        led++;
         update_leds(led);
-
+        _delay_ms(10);
 
 /*
         // echo
@@ -45,7 +47,6 @@ int main(){
             //USART_send('b');
         }
 */
-
     }
 }
 

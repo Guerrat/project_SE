@@ -14,4 +14,5 @@ CMakeFiles/projet_se.dir/main.c.obj: ../SPI_led.h
 CMakeFiles/projet_se.dir/main.c.obj: ../USART.h
 CMakeFiles/projet_se.dir/main.c.obj: ../capt_Hall.h
 CMakeFiles/projet_se.dir/main.c.obj: ../main.c
+CMakeFiles/projet_se.dir/main.c.obj: ../timer.h
 

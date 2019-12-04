@@ -9,7 +9,7 @@ void SPI_MasterInit(void)
     DDRB |= _BV(PB2)|_BV(PB1);
     DDRB &= ~_BV(PB3);
 
-    DDRE |= _BV(PE4); // /OE\ set 0 (OE set 1)
+    DDRE |= _BV(PE4); // OE\ set 0 (OE set 1)
     PORTE &= ~_BV(PE4);
 
     DDRE |= _BV(PE5); // LE set 0
@@ -17,7 +17,7 @@ void SPI_MasterInit(void)
 /* Enable SPI, Master, set clock rate fck/2 , le reste a 0*/
     SPCR |= _BV(SPE)|_BV(MSTR);
     SPSR |= _BV(SPI2X);
-    update_leds(0x0000);
+    update_leds(0xFFFF);
 }
 uint8_t SPI_MasterTransmit(uint8_t to_send)
 {
@@ -31,10 +31,10 @@ uint8_t SPI_MasterTransmit(uint8_t to_send)
     return SPDR;
 }
 
-void update_leds(uint16_t leds_value){
-    SPI_MasterTransmit((uint8_t)(leds_value>>8));
-    SPI_MasterTransmit((uint8_t)(leds_value));
+void update_leds(uint16_t led_value){
+    SPI_MasterTransmit((uint8_t)(led_value>>8));
+    SPI_MasterTransmit((uint8_t)(led_value));
 
-    PORTE |= _BV(PORTE5);
-    PORTE &= ~_BV(PORTE5);
+    PORTE |= _BV(PE5);
+    PORTE &= ~_BV(PE5);
 }

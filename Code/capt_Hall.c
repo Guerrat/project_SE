@@ -3,7 +3,7 @@
 //
 
 #include "capt_Hall.h"
-volatile int flag_rise_hall;
+volatile uint8_t flag_rise_hall;
 void init_hall(void){
     DDRD &= ~_BV(PD0);  // on le met en entrée
     //on active l'interruption sur front montant du capteur

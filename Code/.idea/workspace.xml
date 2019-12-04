@@ -26,9 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="OCResolveContextSettings">
-    <option name="configuration" value="0-projet_se" />
-  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectId" id="1SF3IXK1q8q8aDGsW4iOdvq7Nl8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -36,7 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -88,7 +86,7 @@
       <workItem from="1574173286286" duration="2017000" />
       <workItem from="1574841261483" duration="12332000" />
       <workItem from="1574874835918" duration="4746000" />
-      <workItem from="1575443920782" duration="1446000" />
+      <workItem from="1575443920782" duration="7313000" />
     </task>
     <servers />
   </component>

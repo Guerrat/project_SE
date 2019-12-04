@@ -8,7 +8,7 @@
 #ifndef PROJET_SE_CAPT_HALL_H
 #define PROJET_SE_CAPT_HALL_H
 
-extern volatile int flag_rise_hall;
+extern volatile uint8_t flag_rise_hall;
 void init_hall(void);
 
 #endif //PROJET_SE_CAPT_HALL_H
