@@ -5,13 +5,14 @@
 #include "USART.h"
 #include "SPI_led.h"
 #include "capt_Hall.h"
+#include "timer.h"
 // Serial init source : https://medium.com/@mellow_/atmega328p-serial-communications-in-c-4e5b26a0ea30
 
 // Global variable
 
 
 int main(){
-    _delay_ms(500); // car il démarre 2fois
+    _delay_ms(100); // car il démarre 2fois
     USART_init();
     SPI_MasterInit();
     init_hall();
