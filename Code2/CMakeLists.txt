@@ -36,8 +36,8 @@ ADD_CUSTOM_COMMAND(TARGET ${PROJECT_NAME} POST_BUILD COMMAND avr-size ${CMAKE_RU
 
 #============================================================================================
 
-        add_custom_target(avr_UPLOAD)
-        ADD_CUSTOM_COMMAND(TARGET avr_UPLOAD POST_BUILD
+add_custom_target(avr_UPLOAD)
+ADD_CUSTOM_COMMAND(TARGET avr_UPLOAD POST_BUILD
         #COMMAND avrdude -c usbasp -p ${DEVICE_UPLOADER} -U flash:w:${PROJECT_NAME}.hex noreset -F -B 9600
         COMMAND avrdude -c jtagmkI -P COM3 -p m128 -U flash:w:${PROJECT_NAME}.hex noreset -F -B 38400
         WORKING_DIRECTORY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})

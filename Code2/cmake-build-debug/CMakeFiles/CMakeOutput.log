@@ -1,0 +1,56 @@
+The target system is: Generic -  - 
+The host system is: Windows - 10.0.18362 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Users/Aurelien/Documents/GitHub/project_SE/Code2/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/Users/Aurelien/Documents/GitHub/project_SE/Code2/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Aurelien/Documents/GitHub/project_SE/Code2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe cmTC_b9464/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_b9464.dir\build.make CMakeFiles/cmTC_b9464.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Aurelien/Documents/GitHub/project_SE/Code2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9464.dir/testCCompiler.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_b9464.dir\testCCompiler.c.obj   -c C:\Users\Aurelien\Documents\GitHub\project_SE\Code2\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_b9464
+"C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b9464.dir\link.txt --verbose=1
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe      CMakeFiles/cmTC_b9464.dir/testCCompiler.c.obj  -o cmTC_b9464 
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Aurelien/Documents/GitHub/project_SE/Code2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Aurelien/Documents/GitHub/project_SE/Code2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe cmTC_53ff0/fast && C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_53ff0.dir\build.make CMakeFiles/cmTC_53ff0.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Aurelien/Documents/GitHub/project_SE/Code2/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_53ff0.dir/testCXXCompiler.cxx.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE     -o CMakeFiles\cmTC_53ff0.dir\testCXXCompiler.cxx.obj -c C:\Users\Aurelien\Documents\GitHub\project_SE\Code2\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_53ff0
+"C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_53ff0.dir\link.txt --verbose=1
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE       CMakeFiles/cmTC_53ff0.dir/testCXXCompiler.cxx.obj  -o cmTC_53ff0 
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Aurelien/Documents/GitHub/project_SE/Code2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+

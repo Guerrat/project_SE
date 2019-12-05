@@ -6,13 +6,13 @@
       <config projectName="projet_se" targetName="projet_se" />
     </generated>
   </component>
-  <component name="CMakeSettings" AUTO_RELOAD="true">
+  <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccf8272b-2b44-4d3c-be43-6db07581dc77" name="Default Changelist" comment="" />
+    <list default="true" id="73a39f19-a466-4529-aba4-3671154db643" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,21 +23,16 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="FavoritesManager">
-    <favorites_list name="projet_se" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectId" id="1SF3IXK1q8q8aDGsW4iOdvq7Nl8" />
+  <component name="ProjectId" id="1UVzBFAxdOPFA8lrAXPPgn00Ox6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Code2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -57,7 +52,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="projet_se" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="projet_se" TARGET_NAME="projet_se" CONFIG_NAME="Debug">
+    <configuration name="projet_se" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="projet_se" TARGET_NAME="projet_se" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="projet_se" RUN_TARGET_NAME="projet_se">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -72,24 +67,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ccf8272b-2b44-4d3c-be43-6db07581dc77" name="Default Changelist" comment="" />
-      <created>1571145436746</created>
+      <changelist id="73a39f19-a466-4529-aba4-3671154db643" name="Default Changelist" comment="" />
+      <created>1575456412091</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571145436746</updated>
-      <workItem from="1571145440109" duration="321000" />
-      <workItem from="1571145777648" duration="1250000" />
-      <workItem from="1571147414390" duration="916000" />
-      <workItem from="1571745820533" duration="4250000" />
-      <workItem from="1572959017918" duration="23000" />
-      <workItem from="1572959103342" duration="1015000" />
-      <workItem from="1573650078263" duration="3714000" />
-      <workItem from="1573655126534" duration="5678000" />
-      <workItem from="1574169922955" duration="49000" />
-      <workItem from="1574173286286" duration="2017000" />
-      <workItem from="1574841261483" duration="12332000" />
-      <workItem from="1574874835918" duration="4746000" />
-      <workItem from="1575443920782" duration="13125000" />
+      <updated>1575456412091</updated>
+      <workItem from="1575456414533" duration="463000" />
     </task>
     <servers />
   </component>
@@ -101,9 +84,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
