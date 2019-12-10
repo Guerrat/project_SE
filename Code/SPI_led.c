@@ -19,6 +19,7 @@ void SPI_MasterInit(void)
     SPSR |= _BV(SPI2X);
     update_leds(0x0000);
 }
+
 uint8_t SPI_MasterTransmit(uint8_t to_send)
 {
 /* Start transmission */
@@ -31,7 +32,7 @@ uint8_t SPI_MasterTransmit(uint8_t to_send)
     return SPDR;
 }
 
-void update_leds(uint16_t led_value){
+void update_leds(volatile uint16_t led_value){
     SPI_MasterTransmit((uint8_t)(led_value>>8));
     SPI_MasterTransmit((uint8_t)(led_value));
 

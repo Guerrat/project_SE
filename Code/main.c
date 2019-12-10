@@ -2,6 +2,7 @@
 #include <util/delay.h>
 #include <avr/interrupt.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include "USART.h"
 #include "SPI_led.h"
 #include "capt_Hall.h"
@@ -17,14 +18,13 @@ int main(){
     USART_init();
     SPI_MasterInit();
     init_hall();
-
-    char init[50] ;
+    char init[50];
     sprintf(init, "INIT");  // permet de rajouter atomatiquement 0x00 à la fin de la chaine de caractere
 
     USART_putstring(init);
 
-    _delay_ms(100);
-    led = 0b0000000000000000;
+    //_delay_ms(100);
+    led = 0b1000000000000000;
     update_leds(led);
     _delay_ms(10);
     while(1){
@@ -34,12 +34,11 @@ int main(){
             update_leds(led);
             USART_send('A');
             _delay_ms(50);
+            
         }
-        USART_send('a');
         _delay_ms(50);
-        led = 0b0000000000000001;
-        //led++;
-        update_leds(led);
+        //led = 0b0000000000000001;
+        // update_leds(led);
         //_delay_ms(1);
 
 /*
@@ -51,5 +50,3 @@ int main(){
 */
     }
 }
-
-

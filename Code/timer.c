@@ -5,14 +5,15 @@
 #include "timer.h"
 #include<avr/io.h>
 #define LED PD4
-#define prescaler_8bit 64
+#define prescaler_8bits 64
+#define val_mili_8bits 204
 
 int main()
 {
 	 uint8_t timerOverflowCount=0;
 	 DDRD=0xff;         //configure PORTD as output
 	 TCNT0=0x00;
-   switch(prescaler_8bit){
+   switch(prescaler_8bits){
      case 1 :
         TCCR0 = (1<<CS00) | (0<<CS01) | (0<<CS02);
         break;
@@ -38,7 +39,6 @@ int main()
       TCCR0 = (0<<CS00) | (0<<CS01) | (0<<CS02);
 
    }
-	 TCCR0 = (1<<CS00) | (1<<CS01);
 
 	while(1)
 	{

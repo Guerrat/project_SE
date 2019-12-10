@@ -7,8 +7,8 @@
 #define BAUD 38400
 #define MYUBBR (FOSC/(16*BAUD))-1
 
-uint8_t value_UART_RX;
-volatile uint8_t flag_UART_RX;
+volatile uint8_t value_UART_RX;
+volatile int flag_UART_RX;
 
 // Initialisation du module UART
 void USART_init(void){
