@@ -4,77 +4,59 @@
 
 #include "timer.h"
 #include<avr/io.h>
-#define LED PD4
-#define prescaler_8bits 64
-#define val_mili_8bits 204
 
-int main()
-{
-	 uint8_t timerOverflowCount=0;
-	 DDRD=0xff;         //configure PORTD as output
-	 TCNT0=0x00;
-   switch(prescaler_8bits){
-     case 1 :
-        TCCR0 = (1<<CS00) | (0<<CS01) | (0<<CS02);
-        break;
-     case 8 :
-        TCCR0 = (0<<CS00) | (1<<CS01) | (0<<CS02);
-        break;
-    case 32 :
-       TCCR0 = (1<<CS00) | (1<<CS01) | (0<<CS02);
-       break;
-   case 64 :
-      TCCR0 = (0<<CS00) | (0<<CS01) | (1<<CS02);
-      break;
-     case 128 :
-        TCCR0 = (1<<CS00) | (0<<CS01) | (1<<CS02);
-        break;
-    case 256 :
-       TCCR0 = (0<<CS00) | (1<<CS01) | (1<<CS02);
-       break;
-    case 1024 :
-       TCCR0 = (0<<CS00) | (1<<CS01) | (1<<CS02);
-       break;
-    default :
-      TCCR0 = (0<<CS00) | (0<<CS01) | (0<<CS02);
 
-   }
-
-	while(1)
-	{
-		 while ((TIFR & 0x01) == 0);
-		  TCNT0 = 0x00;
-		  TIFR=0x01; //clear timer1 overflow flag
-		 timerOverflowCount++;
-		 if (timerOverflowCount>=6)
-		 {
-			 PORTD ^= (0x01 << LED);
-			 timerOverflowCount=0;
-		 }
-	}
-}
-
-void timer_8bits_init() {
+void timer0_8bits_init(int prescaler_8bits) {
   uint8_t timerOverflowCount=0;
   DDRD=0xff;         //configure PORTD as output
   TCNT0=0x00;
-  switch(prescaler_8bit){
-    case 1 :
-       TCCR0 |= (1<<CS00) | (0<<CS01) | (0<<CS02);
-       break;
-    case 8 :
-       TCCR0 = (0<<CS00) | (1<<CS01) | (0<<CS02);
-       break;
-   case 64 :
-      TCCR0 = (1<<CS00) | (1<<CS01) | (0<<CS02);
-      break;
-    case 256 :
-       TCCR0 = (0<<CS00) | (0<<CS01) | (1<<CS02);
-       break;
-   case 1024 :
-      TCCR0 = (1<<CS00) | (0<<CS01) | (1<<CS02);
-      break;
-   default :
-     TCCR0 = (0<<CS00) | (0<<CS01) | (0<<CS02);
-  }
+	switch(prescaler_8bits){
+		case 1 :
+			 TCCR0 = (1<<CS00) | (0<<CS01) | (0<<CS02);
+			 break;
+		case 8 :
+			 TCCR0 = (0<<CS00) | (1<<CS01) | (0<<CS02);
+			 break;
+	 case 32 :
+			TCCR0 = (1<<CS00) | (1<<CS01) | (0<<CS02);
+			break;
+	case 64 :
+		 TCCR0 = (0<<CS00) | (0<<CS01) | (1<<CS02);
+		 break;
+		case 128 :
+			 TCCR0 = (1<<CS00) | (0<<CS01) | (1<<CS02);
+			 break;
+	 case 256 :
+			TCCR0 = (0<<CS00) | (1<<CS01) | (1<<CS02);
+			break;
+	 case 1024 :
+			TCCR0 = (0<<CS00) | (1<<CS01) | (1<<CS02);
+			break;
+	 default :
+		 TCCR0 = (0<<CS00) | (0<<CS01) | (0<<CS02);
+	 }
+}
+
+void timer1_16bits_init(int prescaler_16bits) {
+  // DDRD=0xff;         //configure PORTD as output
+	TCNT1=0;
+	switch(prescaler_16bits){
+		case 1 :
+			 TCCR1B = (1<<CS10) | (0<<CS11) | (0<<CS12);
+			 break;
+		case 8 :
+			 TCCR1B = (0<<CS10) | (1<<CS11) | (0<<CS12);
+			 break;
+	 case 64 :
+			TCCR1B = (1<<CS10) | (1<<CS11) | (0<<CS12);
+			break;
+	case 256 :
+		 TCCR1B = (0<<CS10) | (0<<CS11) | (1<<CS12);
+		 break;
+		case 1024 :
+			 TCCR1B = (1<<CS10) | (0<<CS11) | (1<<CS12);
+			 break;
+	 default :
+		 TCCR1B = (0<<CS00) | (0<<CS01) | (0<<CS02);
+	 }
 }
