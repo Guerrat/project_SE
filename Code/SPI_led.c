@@ -6,7 +6,7 @@
 void SPI_MasterInit(void)
 {
 /* Set MOSI and SCK output, all others input */
-    DDRB |= _BV(PB2)|_BV(PB1);
+    DDRB |= _BV(PB2)|_BV(PB1) | _BV(PB0);
     DDRB &= ~_BV(PB3);
 
     DDRE |= _BV(PE4); // OE\ set 0 (OE set 1)

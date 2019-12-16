@@ -3,13 +3,22 @@
 //
 
 #include "timer.h"
-#include<avr/io.h>
+#include <avr/io.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include "USART.h"
 
-
-void timer0_8bits_init(int prescaler_8bits) {
-  uint8_t timerOverflowCount=0;
-  DDRD=0xff;         //configure PORTD as output
+extern char timer[100];
+extern int ms;
+extern int s;
+extern int min;
+extern int h;
+void timer0_8bits_init(int prescaler_8bits, uint8_t val_mili_8bits) {
+  // uint8_t timerOverflowCount=0;
+  //DDRD=0xff;         //configure PORTD as output
   TCNT0=0x00;
+  TIMSK |= (1 << OCIE0) | (1 << TOIE0);
+  OCR0 = val_mili_8bits;
 	switch(prescaler_8bits){
 		case 1 :
 			 TCCR0 = (1<<CS00) | (0<<CS01) | (0<<CS02);
@@ -60,3 +69,22 @@ void timer1_16bits_init(int prescaler_16bits) {
 		 TCCR1B = (0<<CS00) | (0<<CS01) | (0<<CS02);
 	 }
 }
+
+// ISR(TIMER0_COMP_vect) {
+//   ms++;
+//   if (ms == 1000) {
+//     s++;
+//     ms = 0;
+//     sprintf(timer, "Secondes = %u\n", s);  // permet de rajouter atomatiquement 0x00 à la fin de la chaine de caractere
+//     USART_putstring(timer);
+//   }
+//   if (s == 60) {
+//     min++;
+//     s = 0;
+//   }
+//   if (min == 60) {
+//     h++;
+//     min = 0;
+//
+//   }
+// }

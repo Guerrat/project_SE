@@ -8,7 +8,7 @@
 #ifndef PROJET_SE_TIMER_H
 #define PROJET_SE_TIMER_H
 
-void timer0_8bits_init(int prescaler_8bits);
+void timer0_8bits_init(int prescaler_8bits, uint8_t val_mili_8bits);
 void timer1_16bits_init(int prescaler_16bits);
 
 

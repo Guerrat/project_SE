@@ -1,7 +1,7 @@
 all : bin
 
 bin : main.c
-	avr-gcc -std=c99 -Os -mmcu=atmega128 main.c USART.c SPI_led.c capt_Hall.c -D F_CPU=13000000
+	avr-gcc -std=c99 -Os -mmcu=atmega128 main.c USART.c SPI_led.c capt_Hall.c timer.c -D F_CPU=13000000
 	avr-objcopy -O binary a.out a.bin
 
 flash : a.bin
