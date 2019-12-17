@@ -1,1 +1,1 @@
-avr-gcc -Os -mmcu=ATmega128 -DF_CPU=13000000UL -std=gnu99 -Wl,--gc-sections -g   CMakeFiles/projet_se.dir/SPI_led.c.obj CMakeFiles/projet_se.dir/USART.c.obj CMakeFiles/projet_se.dir/capt_Hall.c.obj CMakeFiles/projet_se.dir/main.c.obj  -o ..\bin\projet_se 
+avr-gcc -Os -mmcu=ATmega128 -DF_CPU=13000000UL -std=gnu99 -Wl,-u,vfprintf -lprintf_flt -lm -Wl,--gc-sections -g   CMakeFiles/projet_SE.dir/SPI_led.c.obj CMakeFiles/projet_SE.dir/USART.c.obj CMakeFiles/projet_SE.dir/capt_Hall.c.obj CMakeFiles/projet_SE.dir/main.c.obj CMakeFiles/projet_SE.dir/timer.c.obj  -o ..\bin\projet_SE 

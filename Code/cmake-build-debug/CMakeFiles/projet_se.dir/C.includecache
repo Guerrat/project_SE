@@ -39,6 +39,8 @@ avr/interrupt.h
 -
 stdio.h
 -
+stdlib.h
+-
 USART.h
 C:/Users/Aurelien/Documents/GitHub/project_SE/Code/USART.h
 SPI_led.h
@@ -47,6 +49,12 @@ capt_Hall.h
 C:/Users/Aurelien/Documents/GitHub/project_SE/Code/capt_Hall.h
 timer.h
 C:/Users/Aurelien/Documents/GitHub/project_SE/Code/timer.h
+
+C:/Users/Aurelien/Documents/GitHub/project_SE/Code/timer.c
+timer.h
+C:/Users/Aurelien/Documents/GitHub/project_SE/Code/timer.h
+avr/io.h
+-
 
 C:/Users/Aurelien/Documents/GitHub/project_SE/Code/timer.h
 avr/io.h

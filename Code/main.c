@@ -7,6 +7,7 @@
 #include "SPI_led.h"
 #include "capt_Hall.h"
 #include "timer.h"
+#include "patterns.h"
 // Serial init source : https://medium.com/@mellow_/atmega328p-serial-communications-in-c-4e5b26a0ea30
 
 

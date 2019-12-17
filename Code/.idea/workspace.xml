@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="projet_se" targetName="avr_UPLOAD" />
-      <config projectName="projet_se" targetName="projet_se" />
+      <config projectName="projet_SE" targetName="projet_SE" />
+      <config projectName="projet_SE" targetName="UPLOAD" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -51,20 +51,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.avr_UPLOAD">
-    <configuration name="avr_UPLOAD" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="projet_se" TARGET_NAME="avr_UPLOAD" CONFIG_NAME="Debug">
+  <component name="RunManager" selected="CMake Application.UPLOAD">
+    <configuration name="UPLOAD" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="projet_SE" TARGET_NAME="UPLOAD" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="projet_se" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="projet_se" TARGET_NAME="projet_se" CONFIG_NAME="Debug">
+    <configuration name="projet_SE" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="projet_SE" TARGET_NAME="projet_SE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="projet_SE" RUN_TARGET_NAME="projet_SE">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.avr_UPLOAD" />
-      <item itemvalue="CMake Application.projet_se" />
+      <item itemvalue="CMake Application.projet_SE" />
+      <item itemvalue="CMake Application.UPLOAD" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -90,6 +90,9 @@
       <workItem from="1574841261483" duration="12332000" />
       <workItem from="1574874835918" duration="4746000" />
       <workItem from="1575443920782" duration="13125000" />
+      <workItem from="1575983016058" duration="5930000" />
+      <workItem from="1576052960146" duration="2757000" />
+      <workItem from="1576587162808" duration="1524000" />
     </task>
     <servers />
   </component>

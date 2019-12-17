@@ -48,98 +48,113 @@ CMAKE_SOURCE_DIR = C:\Users\Aurelien\Documents\GitHub\project_SE\Code
 CMAKE_BINARY_DIR = C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug
 
 # Include any dependencies generated for this target.
-include CMakeFiles/projet_se.dir/depend.make
+include CMakeFiles/projet_SE.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/projet_se.dir/progress.make
+include CMakeFiles/projet_SE.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/projet_se.dir/flags.make
+include CMakeFiles/projet_SE.dir/flags.make
 
-CMakeFiles/projet_se.dir/SPI_led.c.obj: CMakeFiles/projet_se.dir/flags.make
-CMakeFiles/projet_se.dir/SPI_led.c.obj: ../SPI_led.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/projet_se.dir/SPI_led.c.obj"
-	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\projet_se.dir\SPI_led.c.obj   -c C:\Users\Aurelien\Documents\GitHub\project_SE\Code\SPI_led.c
+CMakeFiles/projet_SE.dir/SPI_led.c.obj: CMakeFiles/projet_SE.dir/flags.make
+CMakeFiles/projet_SE.dir/SPI_led.c.obj: ../SPI_led.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/projet_SE.dir/SPI_led.c.obj"
+	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\projet_SE.dir\SPI_led.c.obj   -c C:\Users\Aurelien\Documents\GitHub\project_SE\Code\SPI_led.c
 
-CMakeFiles/projet_se.dir/SPI_led.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/projet_se.dir/SPI_led.c.i"
-	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Aurelien\Documents\GitHub\project_SE\Code\SPI_led.c > CMakeFiles\projet_se.dir\SPI_led.c.i
+CMakeFiles/projet_SE.dir/SPI_led.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/projet_SE.dir/SPI_led.c.i"
+	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Aurelien\Documents\GitHub\project_SE\Code\SPI_led.c > CMakeFiles\projet_SE.dir\SPI_led.c.i
 
-CMakeFiles/projet_se.dir/SPI_led.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/projet_se.dir/SPI_led.c.s"
-	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Aurelien\Documents\GitHub\project_SE\Code\SPI_led.c -o CMakeFiles\projet_se.dir\SPI_led.c.s
+CMakeFiles/projet_SE.dir/SPI_led.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/projet_SE.dir/SPI_led.c.s"
+	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Aurelien\Documents\GitHub\project_SE\Code\SPI_led.c -o CMakeFiles\projet_SE.dir\SPI_led.c.s
 
-CMakeFiles/projet_se.dir/USART.c.obj: CMakeFiles/projet_se.dir/flags.make
-CMakeFiles/projet_se.dir/USART.c.obj: ../USART.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/projet_se.dir/USART.c.obj"
-	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\projet_se.dir\USART.c.obj   -c C:\Users\Aurelien\Documents\GitHub\project_SE\Code\USART.c
+CMakeFiles/projet_SE.dir/USART.c.obj: CMakeFiles/projet_SE.dir/flags.make
+CMakeFiles/projet_SE.dir/USART.c.obj: ../USART.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/projet_SE.dir/USART.c.obj"
+	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\projet_SE.dir\USART.c.obj   -c C:\Users\Aurelien\Documents\GitHub\project_SE\Code\USART.c
 
-CMakeFiles/projet_se.dir/USART.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/projet_se.dir/USART.c.i"
-	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Aurelien\Documents\GitHub\project_SE\Code\USART.c > CMakeFiles\projet_se.dir\USART.c.i
+CMakeFiles/projet_SE.dir/USART.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/projet_SE.dir/USART.c.i"
+	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Aurelien\Documents\GitHub\project_SE\Code\USART.c > CMakeFiles\projet_SE.dir\USART.c.i
 
-CMakeFiles/projet_se.dir/USART.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/projet_se.dir/USART.c.s"
-	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Aurelien\Documents\GitHub\project_SE\Code\USART.c -o CMakeFiles\projet_se.dir\USART.c.s
+CMakeFiles/projet_SE.dir/USART.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/projet_SE.dir/USART.c.s"
+	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Aurelien\Documents\GitHub\project_SE\Code\USART.c -o CMakeFiles\projet_SE.dir\USART.c.s
 
-CMakeFiles/projet_se.dir/capt_Hall.c.obj: CMakeFiles/projet_se.dir/flags.make
-CMakeFiles/projet_se.dir/capt_Hall.c.obj: ../capt_Hall.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/projet_se.dir/capt_Hall.c.obj"
-	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\projet_se.dir\capt_Hall.c.obj   -c C:\Users\Aurelien\Documents\GitHub\project_SE\Code\capt_Hall.c
+CMakeFiles/projet_SE.dir/capt_Hall.c.obj: CMakeFiles/projet_SE.dir/flags.make
+CMakeFiles/projet_SE.dir/capt_Hall.c.obj: ../capt_Hall.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/projet_SE.dir/capt_Hall.c.obj"
+	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\projet_SE.dir\capt_Hall.c.obj   -c C:\Users\Aurelien\Documents\GitHub\project_SE\Code\capt_Hall.c
 
-CMakeFiles/projet_se.dir/capt_Hall.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/projet_se.dir/capt_Hall.c.i"
-	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Aurelien\Documents\GitHub\project_SE\Code\capt_Hall.c > CMakeFiles\projet_se.dir\capt_Hall.c.i
+CMakeFiles/projet_SE.dir/capt_Hall.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/projet_SE.dir/capt_Hall.c.i"
+	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Aurelien\Documents\GitHub\project_SE\Code\capt_Hall.c > CMakeFiles\projet_SE.dir\capt_Hall.c.i
 
-CMakeFiles/projet_se.dir/capt_Hall.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/projet_se.dir/capt_Hall.c.s"
-	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Aurelien\Documents\GitHub\project_SE\Code\capt_Hall.c -o CMakeFiles\projet_se.dir\capt_Hall.c.s
+CMakeFiles/projet_SE.dir/capt_Hall.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/projet_SE.dir/capt_Hall.c.s"
+	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Aurelien\Documents\GitHub\project_SE\Code\capt_Hall.c -o CMakeFiles\projet_SE.dir\capt_Hall.c.s
 
-CMakeFiles/projet_se.dir/main.c.obj: CMakeFiles/projet_se.dir/flags.make
-CMakeFiles/projet_se.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/projet_se.dir/main.c.obj"
-	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\projet_se.dir\main.c.obj   -c C:\Users\Aurelien\Documents\GitHub\project_SE\Code\main.c
+CMakeFiles/projet_SE.dir/main.c.obj: CMakeFiles/projet_SE.dir/flags.make
+CMakeFiles/projet_SE.dir/main.c.obj: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/projet_SE.dir/main.c.obj"
+	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\projet_SE.dir\main.c.obj   -c C:\Users\Aurelien\Documents\GitHub\project_SE\Code\main.c
 
-CMakeFiles/projet_se.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/projet_se.dir/main.c.i"
-	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Aurelien\Documents\GitHub\project_SE\Code\main.c > CMakeFiles\projet_se.dir\main.c.i
+CMakeFiles/projet_SE.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/projet_SE.dir/main.c.i"
+	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Aurelien\Documents\GitHub\project_SE\Code\main.c > CMakeFiles\projet_SE.dir\main.c.i
 
-CMakeFiles/projet_se.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/projet_se.dir/main.c.s"
-	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Aurelien\Documents\GitHub\project_SE\Code\main.c -o CMakeFiles\projet_se.dir\main.c.s
+CMakeFiles/projet_SE.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/projet_SE.dir/main.c.s"
+	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Aurelien\Documents\GitHub\project_SE\Code\main.c -o CMakeFiles\projet_SE.dir\main.c.s
 
-# Object files for target projet_se
-projet_se_OBJECTS = \
-"CMakeFiles/projet_se.dir/SPI_led.c.obj" \
-"CMakeFiles/projet_se.dir/USART.c.obj" \
-"CMakeFiles/projet_se.dir/capt_Hall.c.obj" \
-"CMakeFiles/projet_se.dir/main.c.obj"
+CMakeFiles/projet_SE.dir/timer.c.obj: CMakeFiles/projet_SE.dir/flags.make
+CMakeFiles/projet_SE.dir/timer.c.obj: ../timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/projet_SE.dir/timer.c.obj"
+	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\projet_SE.dir\timer.c.obj   -c C:\Users\Aurelien\Documents\GitHub\project_SE\Code\timer.c
 
-# External object files for target projet_se
-projet_se_EXTERNAL_OBJECTS =
+CMakeFiles/projet_SE.dir/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/projet_SE.dir/timer.c.i"
+	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Aurelien\Documents\GitHub\project_SE\Code\timer.c > CMakeFiles\projet_SE.dir\timer.c.i
 
-../bin/projet_se: CMakeFiles/projet_se.dir/SPI_led.c.obj
-../bin/projet_se: CMakeFiles/projet_se.dir/USART.c.obj
-../bin/projet_se: CMakeFiles/projet_se.dir/capt_Hall.c.obj
-../bin/projet_se: CMakeFiles/projet_se.dir/main.c.obj
-../bin/projet_se: CMakeFiles/projet_se.dir/build.make
-../bin/projet_se: CMakeFiles/projet_se.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable ..\bin\projet_se"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\projet_se.dir\link.txt --verbose=$(VERBOSE)
-	avr-objcopy -O ihex -R.eeprom C:/Users/Aurelien/Documents/GitHub/project_SE/Code/bin/projet_se C:/Users/Aurelien/Documents/GitHub/project_SE/Code/bin/projet_se.hex
-	avr-objcopy -O ihex -j .eeprom --set-section-flags=.eeprom="alloc,load" --change-section-lma .eeprom=0 C:/Users/Aurelien/Documents/GitHub/project_SE/Code/bin/projet_se C:/Users/Aurelien/Documents/GitHub/project_SE/Code/bin/projet_se.eep
-	avr-size C:/Users/Aurelien/Documents/GitHub/project_SE/Code/bin/projet_se --mcu=ATmega128 --format=avr
+CMakeFiles/projet_SE.dir/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/projet_SE.dir/timer.c.s"
+	avr-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Aurelien\Documents\GitHub\project_SE\Code\timer.c -o CMakeFiles\projet_SE.dir\timer.c.s
+
+# Object files for target projet_SE
+projet_SE_OBJECTS = \
+"CMakeFiles/projet_SE.dir/SPI_led.c.obj" \
+"CMakeFiles/projet_SE.dir/USART.c.obj" \
+"CMakeFiles/projet_SE.dir/capt_Hall.c.obj" \
+"CMakeFiles/projet_SE.dir/main.c.obj" \
+"CMakeFiles/projet_SE.dir/timer.c.obj"
+
+# External object files for target projet_SE
+projet_SE_EXTERNAL_OBJECTS =
+
+../bin/projet_SE: CMakeFiles/projet_SE.dir/SPI_led.c.obj
+../bin/projet_SE: CMakeFiles/projet_SE.dir/USART.c.obj
+../bin/projet_SE: CMakeFiles/projet_SE.dir/capt_Hall.c.obj
+../bin/projet_SE: CMakeFiles/projet_SE.dir/main.c.obj
+../bin/projet_SE: CMakeFiles/projet_SE.dir/timer.c.obj
+../bin/projet_SE: CMakeFiles/projet_SE.dir/build.make
+../bin/projet_SE: CMakeFiles/projet_SE.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable ..\bin\projet_SE"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\projet_SE.dir\link.txt --verbose=$(VERBOSE)
+	avr-objcopy -O ihex -R.eeprom C:/Users/Aurelien/Documents/GitHub/project_SE/Code/bin/projet_SE C:/Users/Aurelien/Documents/GitHub/project_SE/Code/bin/projet_SE.hex
+	avr-objcopy -O ihex -j .eeprom --set-section-flags=.eeprom="alloc,load" C:/Users/Aurelien/Documents/GitHub/project_SE/Code/bin/projet_SE C:/Users/Aurelien/Documents/GitHub/project_SE/Code/bin/projet_SE.eep
+	avr-size C:/Users/Aurelien/Documents/GitHub/project_SE/Code/bin/projet_SE --mcu=ATmega128 --format=avr
 
 # Rule to build all files generated by this target.
-CMakeFiles/projet_se.dir/build: ../bin/projet_se
+CMakeFiles/projet_SE.dir/build: ../bin/projet_SE
 
-.PHONY : CMakeFiles/projet_se.dir/build
+.PHONY : CMakeFiles/projet_SE.dir/build
 
-CMakeFiles/projet_se.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles\projet_se.dir\cmake_clean.cmake
-.PHONY : CMakeFiles/projet_se.dir/clean
+CMakeFiles/projet_SE.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles\projet_SE.dir\cmake_clean.cmake
+.PHONY : CMakeFiles/projet_SE.dir/clean
 
-CMakeFiles/projet_se.dir/depend:
+CMakeFiles/projet_SE.dir/depend:
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Aurelien\Documents\GitHub\project_SE\Code C:\Users\Aurelien\Documents\GitHub\project_SE\Code C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles\projet_se.dir\DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/projet_se.dir/depend
+.PHONY : CMakeFiles/projet_SE.dir/depend
 

@@ -16,3 +16,6 @@ CMakeFiles/projet_se.dir/main.c.obj: ../capt_Hall.h
 CMakeFiles/projet_se.dir/main.c.obj: ../main.c
 CMakeFiles/projet_se.dir/main.c.obj: ../timer.h
 
+CMakeFiles/projet_se.dir/timer.c.obj: ../timer.c
+CMakeFiles/projet_se.dir/timer.c.obj: ../timer.h
+
