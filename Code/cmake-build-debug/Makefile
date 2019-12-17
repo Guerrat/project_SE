@@ -110,30 +110,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named projet_se
+# Target rules for targets named UPLOAD
 
 # Build rule for target.
-projet_se: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 projet_se
-.PHONY : projet_se
+UPLOAD: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 UPLOAD
+.PHONY : UPLOAD
 
 # fast build rule for target.
-projet_se/fast:
-	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/build
-.PHONY : projet_se/fast
+UPLOAD/fast:
+	$(MAKE) -f CMakeFiles\UPLOAD.dir\build.make CMakeFiles/UPLOAD.dir/build
+.PHONY : UPLOAD/fast
 
 #=============================================================================
-# Target rules for targets named avr_UPLOAD
+# Target rules for targets named projet_SE
 
 # Build rule for target.
-avr_UPLOAD: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 avr_UPLOAD
-.PHONY : avr_UPLOAD
+projet_SE: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 projet_SE
+.PHONY : projet_SE
 
 # fast build rule for target.
-avr_UPLOAD/fast:
-	$(MAKE) -f CMakeFiles\avr_UPLOAD.dir\build.make CMakeFiles/avr_UPLOAD.dir/build
-.PHONY : avr_UPLOAD/fast
+projet_SE/fast:
+	$(MAKE) -f CMakeFiles\projet_SE.dir\build.make CMakeFiles/projet_SE.dir/build
+.PHONY : projet_SE/fast
 
 SPI_led.obj: SPI_led.c.obj
 
@@ -141,7 +141,7 @@ SPI_led.obj: SPI_led.c.obj
 
 # target to build an object file
 SPI_led.c.obj:
-	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/SPI_led.c.obj
+	$(MAKE) -f CMakeFiles\projet_SE.dir\build.make CMakeFiles/projet_SE.dir/SPI_led.c.obj
 .PHONY : SPI_led.c.obj
 
 SPI_led.i: SPI_led.c.i
@@ -150,7 +150,7 @@ SPI_led.i: SPI_led.c.i
 
 # target to preprocess a source file
 SPI_led.c.i:
-	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/SPI_led.c.i
+	$(MAKE) -f CMakeFiles\projet_SE.dir\build.make CMakeFiles/projet_SE.dir/SPI_led.c.i
 .PHONY : SPI_led.c.i
 
 SPI_led.s: SPI_led.c.s
@@ -159,7 +159,7 @@ SPI_led.s: SPI_led.c.s
 
 # target to generate assembly for a file
 SPI_led.c.s:
-	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/SPI_led.c.s
+	$(MAKE) -f CMakeFiles\projet_SE.dir\build.make CMakeFiles/projet_SE.dir/SPI_led.c.s
 .PHONY : SPI_led.c.s
 
 USART.obj: USART.c.obj
@@ -168,7 +168,7 @@ USART.obj: USART.c.obj
 
 # target to build an object file
 USART.c.obj:
-	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/USART.c.obj
+	$(MAKE) -f CMakeFiles\projet_SE.dir\build.make CMakeFiles/projet_SE.dir/USART.c.obj
 .PHONY : USART.c.obj
 
 USART.i: USART.c.i
@@ -177,7 +177,7 @@ USART.i: USART.c.i
 
 # target to preprocess a source file
 USART.c.i:
-	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/USART.c.i
+	$(MAKE) -f CMakeFiles\projet_SE.dir\build.make CMakeFiles/projet_SE.dir/USART.c.i
 .PHONY : USART.c.i
 
 USART.s: USART.c.s
@@ -186,7 +186,7 @@ USART.s: USART.c.s
 
 # target to generate assembly for a file
 USART.c.s:
-	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/USART.c.s
+	$(MAKE) -f CMakeFiles\projet_SE.dir\build.make CMakeFiles/projet_SE.dir/USART.c.s
 .PHONY : USART.c.s
 
 capt_Hall.obj: capt_Hall.c.obj
@@ -195,7 +195,7 @@ capt_Hall.obj: capt_Hall.c.obj
 
 # target to build an object file
 capt_Hall.c.obj:
-	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/capt_Hall.c.obj
+	$(MAKE) -f CMakeFiles\projet_SE.dir\build.make CMakeFiles/projet_SE.dir/capt_Hall.c.obj
 .PHONY : capt_Hall.c.obj
 
 capt_Hall.i: capt_Hall.c.i
@@ -204,7 +204,7 @@ capt_Hall.i: capt_Hall.c.i
 
 # target to preprocess a source file
 capt_Hall.c.i:
-	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/capt_Hall.c.i
+	$(MAKE) -f CMakeFiles\projet_SE.dir\build.make CMakeFiles/projet_SE.dir/capt_Hall.c.i
 .PHONY : capt_Hall.c.i
 
 capt_Hall.s: capt_Hall.c.s
@@ -213,7 +213,7 @@ capt_Hall.s: capt_Hall.c.s
 
 # target to generate assembly for a file
 capt_Hall.c.s:
-	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/capt_Hall.c.s
+	$(MAKE) -f CMakeFiles\projet_SE.dir\build.make CMakeFiles/projet_SE.dir/capt_Hall.c.s
 .PHONY : capt_Hall.c.s
 
 main.obj: main.c.obj
@@ -222,7 +222,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/main.c.obj
+	$(MAKE) -f CMakeFiles\projet_SE.dir\build.make CMakeFiles/projet_SE.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -231,7 +231,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/main.c.i
+	$(MAKE) -f CMakeFiles\projet_SE.dir\build.make CMakeFiles/projet_SE.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -240,8 +240,35 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/main.c.s
+	$(MAKE) -f CMakeFiles\projet_SE.dir\build.make CMakeFiles/projet_SE.dir/main.c.s
 .PHONY : main.c.s
+
+timer.obj: timer.c.obj
+
+.PHONY : timer.obj
+
+# target to build an object file
+timer.c.obj:
+	$(MAKE) -f CMakeFiles\projet_SE.dir\build.make CMakeFiles/projet_SE.dir/timer.c.obj
+.PHONY : timer.c.obj
+
+timer.i: timer.c.i
+
+.PHONY : timer.i
+
+# target to preprocess a source file
+timer.c.i:
+	$(MAKE) -f CMakeFiles\projet_SE.dir\build.make CMakeFiles/projet_SE.dir/timer.c.i
+.PHONY : timer.c.i
+
+timer.s: timer.c.s
+
+.PHONY : timer.s
+
+# target to generate assembly for a file
+timer.c.s:
+	$(MAKE) -f CMakeFiles\projet_SE.dir\build.make CMakeFiles/projet_SE.dir/timer.c.s
+.PHONY : timer.c.s
 
 # Help Target
 help:
@@ -249,9 +276,9 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... projet_se
+	@echo ... UPLOAD
+	@echo ... projet_SE
 	@echo ... edit_cache
-	@echo ... avr_UPLOAD
 	@echo ... rebuild_cache
 	@echo ... SPI_led.obj
 	@echo ... SPI_led.i
@@ -265,6 +292,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... timer.obj
+	@echo ... timer.i
+	@echo ... timer.s
 .PHONY : help
 
 

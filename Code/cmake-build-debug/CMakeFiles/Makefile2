@@ -52,13 +52,13 @@ CMAKE_BINARY_DIR = C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-buil
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/projet_se.dir/all
+all: CMakeFiles/projet_SE.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/projet_se.dir/clean
-clean: CMakeFiles/avr_UPLOAD.dir/clean
+clean: CMakeFiles/UPLOAD.dir/clean
+clean: CMakeFiles/projet_SE.dir/clean
 
 .PHONY : clean
 
@@ -68,58 +68,58 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/projet_se.dir
+# Target rules for target CMakeFiles/UPLOAD.dir
 
 # All Build rule for target.
-CMakeFiles/projet_se.dir/all:
-	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/depend
-	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target projet_se"
-.PHONY : CMakeFiles/projet_se.dir/all
+CMakeFiles/UPLOAD.dir/all:
+	$(MAKE) -f CMakeFiles\UPLOAD.dir\build.make CMakeFiles/UPLOAD.dir/depend
+	$(MAKE) -f CMakeFiles\UPLOAD.dir\build.make CMakeFiles/UPLOAD.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles --progress-num= "Built target UPLOAD"
+.PHONY : CMakeFiles/UPLOAD.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/projet_se.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles 5
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/projet_se.dir/all
+CMakeFiles/UPLOAD.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/projet_se.dir/rule
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/UPLOAD.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/UPLOAD.dir/rule
 
 # Convenience name for target.
-projet_se: CMakeFiles/projet_se.dir/rule
+UPLOAD: CMakeFiles/UPLOAD.dir/rule
 
-.PHONY : projet_se
+.PHONY : UPLOAD
 
 # clean rule for target.
-CMakeFiles/projet_se.dir/clean:
-	$(MAKE) -f CMakeFiles\projet_se.dir\build.make CMakeFiles/projet_se.dir/clean
-.PHONY : CMakeFiles/projet_se.dir/clean
+CMakeFiles/UPLOAD.dir/clean:
+	$(MAKE) -f CMakeFiles\UPLOAD.dir\build.make CMakeFiles/UPLOAD.dir/clean
+.PHONY : CMakeFiles/UPLOAD.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/avr_UPLOAD.dir
+# Target rules for target CMakeFiles/projet_SE.dir
 
 # All Build rule for target.
-CMakeFiles/avr_UPLOAD.dir/all:
-	$(MAKE) -f CMakeFiles\avr_UPLOAD.dir\build.make CMakeFiles/avr_UPLOAD.dir/depend
-	$(MAKE) -f CMakeFiles\avr_UPLOAD.dir\build.make CMakeFiles/avr_UPLOAD.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles --progress-num= "Built target avr_UPLOAD"
-.PHONY : CMakeFiles/avr_UPLOAD.dir/all
+CMakeFiles/projet_SE.dir/all:
+	$(MAKE) -f CMakeFiles\projet_SE.dir\build.make CMakeFiles/projet_SE.dir/depend
+	$(MAKE) -f CMakeFiles\projet_SE.dir\build.make CMakeFiles/projet_SE.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target projet_SE"
+.PHONY : CMakeFiles/projet_SE.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/avr_UPLOAD.dir/rule: cmake_check_build_system
+CMakeFiles/projet_SE.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles 6
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/projet_SE.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles 0
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/avr_UPLOAD.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Aurelien\Documents\GitHub\project_SE\Code\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/avr_UPLOAD.dir/rule
+.PHONY : CMakeFiles/projet_SE.dir/rule
 
 # Convenience name for target.
-avr_UPLOAD: CMakeFiles/avr_UPLOAD.dir/rule
+projet_SE: CMakeFiles/projet_SE.dir/rule
 
-.PHONY : avr_UPLOAD
+.PHONY : projet_SE
 
 # clean rule for target.
-CMakeFiles/avr_UPLOAD.dir/clean:
-	$(MAKE) -f CMakeFiles\avr_UPLOAD.dir\build.make CMakeFiles/avr_UPLOAD.dir/clean
-.PHONY : CMakeFiles/avr_UPLOAD.dir/clean
+CMakeFiles/projet_SE.dir/clean:
+	$(MAKE) -f CMakeFiles\projet_SE.dir\build.make CMakeFiles/projet_SE.dir/clean
+.PHONY : CMakeFiles/projet_SE.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

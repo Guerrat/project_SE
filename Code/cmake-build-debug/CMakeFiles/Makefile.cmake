@@ -44,6 +44,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/projet_se.dir/DependInfo.cmake"
-  "CMakeFiles/avr_UPLOAD.dir/DependInfo.cmake"
+  "CMakeFiles/UPLOAD.dir/DependInfo.cmake"
+  "CMakeFiles/projet_SE.dir/DependInfo.cmake"
   )
