@@ -19,10 +19,6 @@ void init_hall(void){
 }
 
 ISR(INT0_vect){
-    // led = 0b1011111000000000;
-    // update_leds(led);
-    hall_timer = TCNT1;
+    hall_timer = (hall_timer + TCNT1)/2 ;
     TCNT1=0;
-    // sprintf(timer, "Time = %d\n", hall_timer);  // permet de rajouter atomatiquement 0x00 à la fin de la chaine de caractere
-    // USART_putstring(timer);
 }

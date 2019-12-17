@@ -10,6 +10,7 @@
 
 void timer0_8bits_init(int prescaler_8bits, uint8_t val_mili_8bits);
 void timer1_16bits_init(int prescaler_16bits);
-
+void timer3_16bits_init(int prescaler_16bits, uint16_t val_mili_16bits);
+void set_time(char time[]);
 
 #endif //PROJET_SE_TIMER_H
